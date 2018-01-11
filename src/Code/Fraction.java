@@ -26,4 +26,15 @@ public class Fraction
     {
         return new Fraction(num*f.num,denom*f.denom);
     }
+    public Fraction inverse(Fraction f)
+    {
+        if (num==0)
+        {
+            return null;
+        }
+        else
+        {
+            return new Fraction(denom,num);
+        }
+    }
 }
