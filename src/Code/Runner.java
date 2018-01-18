@@ -9,6 +9,7 @@ public class Runner
         Fraction a = new Fraction(myFraction);
         Fraction multiplied = myFraction.multiply(otherFraction);
         Fraction flip = myFraction.inverse(otherFraction);
+        System.out.println(Fraction.lcm(7,5));
         System.out.println(myFraction);
         System.out.println(a.equals(myFraction));
         System.out.println(multiplied);
